@@ -69,7 +69,3 @@ The function `create_short_video_dynamic_fontsize` takes the following parameter
 - `music_path`: Path to the background music file.
 - `text_overlays`: List of tuples (time, text, position) for text overlays.
 - `final_duration`: Desired final video duration in seconds (default is 30 seconds).
-
-## License
-
-This project is licensed under the MIT License.
