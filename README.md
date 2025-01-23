@@ -11,12 +11,19 @@ This project provides a script to create a short video with dynamic font size te
 
 - Python 3.x
 - moviepy
+- ImageMagick
 
 You can install the required Python packages using pip:
 
 ```sh
 pip install moviepy
 ```
+
+### Installing ImageMagick
+
+1. Download ImageMagick from the [official website](https://imagemagick.org/script/download.php).
+2. Follow the installation instructions for your operating system.
+3. Ensure that ImageMagick is added to your system's PATH.
 
 ## Usage
 
@@ -61,4 +68,8 @@ The function `create_short_video_dynamic_fontsize` takes the following parameter
 - `interesting_clips`: List of tuples for clip start and end times.
 - `music_path`: Path to the background music file.
 - `text_overlays`: List of tuples (time, text, position) for text overlays.
-- `final_duration`: Desired final video duration in seconds (default is 30 seconds). Video Editing Project
+- `final_duration`: Desired final video duration in seconds (default is 30 seconds).
+
+## License
+
+This project is licensed under the MIT License.
