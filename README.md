@@ -4,8 +4,7 @@ This project provides a script to create a short video with dynamic font size te
 
 ## Files
 
-- `longshortvideo.py`: Contains the function to create a short video with dynamic font size text overlays.
-- `main.py`: Example usage of the function provided in `longshortvideo.py`.
+- `main.py`: Contains the function to create a short video with dynamic font size text overlays.
 
 ## Requirements
 
@@ -27,7 +26,7 @@ pip install moviepy
 
 ## Usage
 
-### Example Usage in `main.py`
+### Example Usage
 
 1. Set the path to your input video, output video, and background music.
 2. Define the interesting clips with their start and end times.
@@ -59,7 +58,7 @@ text_overlays = [
 create_short_video_dynamic_fontsize(input_video, output_video, interesting_clips, music_path, text_overlays)
 ```
 
-### Function in `longshortvideo.py`
+### Function in `main.py`
 
 The function `create_short_video_dynamic_fontsize` takes the following parameters:
 
